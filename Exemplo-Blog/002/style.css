@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1#titulo-principal {
+    color: white;
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.título-monstros {
+	color: grey;
+	text-align: right;
+}		
+

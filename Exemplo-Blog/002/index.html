@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Id e Class</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1#titulo-principal {
+            color: white;
+            background-color: rgb(73, 122, 73);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .titulo-monstros {
+	        color: rgb(102, 101, 101);
+	        text-align: right;
+        }		
+
+        .titulo-monstros:hover {
+            color : black;
+        }
+
+        .titulo-monstros::after{
+            content: " [ link ] ";
+            color: blue
+            
+        }
+
+    </style>
+</head>
+<body>
+    <body>
+		<h1 id="titulo-principal">Monstros Dungeon and Dragons</h1>
+		<h2>Tipos de Monstros</h2>
+		<h3 class="titulo-monstros">Beholder</h3>
+        <p> Beholder é um monstro com diversos tentáculos com olhos, e um olho grande no meio do rosto, os olhos possuem propriedades mágicas</p>
+		<h3 class="titulo-monstros">Tiamat</h3>
+        <p>Tiamat é um dragão gigantesco que possui 5 cabeças, e cada uma das cabeças possui uma consciência própria e cada uma possui habilidades específicas </p>	
+	</body>
+  
+
+    
+</body>
+</html>
